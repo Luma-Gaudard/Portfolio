@@ -22,7 +22,10 @@ There should be whitespace between paragraphs. We recommend including a README, 
   
 ## Projeto de Analise de Dados 
 
-![Minha Logo](/assets/img/4png)
+![Minha Logo](/assets/img/4.png)
+
+<img src="/assets/img/4.png" alt="Minha Logo" width="150">
+
 
 
 # Header 1
