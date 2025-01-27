@@ -25,11 +25,11 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 
 
-#### Header 4
+#### Habilidades Técnicas
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+*   Linguagens: Python, R e SQL.
+*   Ferramentas: Docker, Excel, Git e Power BI.
+*   Skills: Scrum.
 
 ##### Header 5
 
