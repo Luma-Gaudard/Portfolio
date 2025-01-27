@@ -23,7 +23,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 ## Projeto de Analise de Dados 
 
 
-<img src="/assets/img/projeto.png" alt="Projeto" width="350">
+<img src="/assets/img/projeto.png" alt="Projeto" width="450">
 
 
 
