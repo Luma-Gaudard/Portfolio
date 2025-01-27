@@ -2,11 +2,14 @@
 # **Portifófio**
 
  **Sobre Mim**
-.
 
 [Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
+Minha conexão com o universo dos dados vai além da técnica. Para mim, os dados são mais do que números: eles contam histórias, revelam padrões e oferecem respostas que impulsionam decisões estratégicas. É esse impacto que me motiva a buscar soluções práticas e eficientes.
+
+Ao longo da minha trajetória, desenvolvi competências em modelagem de dados, automação de processos, visualização de informações e criação de dashboards intuitivos. Com atenção aos detalhes e foco na qualidade, transformo complexidade em clareza, entregando análises que realmente fazem a diferença. 
+
+Meu foco está em usar os dados como uma ferramenta para gerar insights, motivar equipes e transformar conhecimento técnico em soluções práticas e impactantes. Meu trabalho não é só sobre criar dashboards ou relatórios é sobre ajudar pessoas a enxergar possibilidades onde antes só existiam dúvidas. Cada nova demanda é uma oportunidade de aprendizado, e acredito que o que aprendemos precisa ser compartilhado para gerar impacto coletivo..
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
