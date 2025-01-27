@@ -23,7 +23,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 ## Projeto de Analise de Dados 
 
 
-<img src="/assets/img/firt power bi 1_page-001.jpg" alt="Minha Logo" width="150">
+<img src="/assets/img/projeto.png" alt="Projeto" width="150">
 
 
 
