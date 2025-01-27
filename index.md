@@ -13,6 +13,14 @@ Meu foco está em usar os dados como uma ferramenta para gerar insights, motivar
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
+
+#### Habilidades Técnicas
+
+*   Linguagens: Python, R e SQL.
+*   Ferramentas: Docker, Excel, Git e Power BI.
+*   Skills: Scrum.
+
+
 # Header 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
