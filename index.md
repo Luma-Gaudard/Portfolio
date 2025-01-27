@@ -26,6 +26,22 @@ There should be whitespace between paragraphs. We recommend including a README, 
 <img src="/assets/img/projeto.png" alt="Projeto" width="500">
 
 
+#### Contexto :
+Este projeto teve como foco a construção de um pipeline de dados para análise de vendas de uma loja online fictícia, utilizando a FakeStoreAPI. Ele abrangeu todas as etapas de um processo ETL (Extração, Transformação e Carregamento), além do desenvolvimento de dashboards no Power BI para visualização dos dados.
+
+#### Objetivos:
+
+*   Linguagens: Python, R e SQL.
+*   Ferramentas: Docker, Excel, Git e Power BI.
+*   Skills: Scrum.
+
+  #### Resultados :
+
+*   Linguagens: Python, R e SQL.
+*   Ferramentas: Docker, Excel, Git e Power BI.
+*   Skills: Scrum.
+
+
 
 # Header 1
 
