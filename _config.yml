@@ -4,3 +4,5 @@ description: Olá, este é o meu portfólio de projetos. Aqui, eu compartilho co
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+
+[Link to another page](./another-page.html).
