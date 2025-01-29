@@ -51,9 +51,11 @@
 				        <div class="row">
 
 					<!-- Two -->
-<section id="Two">
+
+<section id="two">
     <h2>Ferramentas</h2>
-    <div class="tools-grid">
+    <hr>
+    <div class="tools-container">
         <div class="tool">
             <img src="images/Mysql.png" alt="MySQL">
             <span>MySQL</span>
@@ -71,48 +73,53 @@
             <span>Excel</span>
         </div>
     </div>
-    <hr>
 </section>
+
 <style>
-   
+    /* Ajuste Geral */
     #two {
-        padding: 20px;
         text-align: center;
+        padding: 20px;
     }
 
+    /* Contêiner dos ícones */
     .tools-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 40px; /* Espaçamento horizontal entre os ícones */
-        margin-top: 20px;
+        display: flex; /* Alinha os itens horizontalmente */
+        justify-content: center; /* Centraliza os itens */
+        align-items: center; /* Centraliza os itens verticalmente */
+        gap: 30px; /* Espaço entre os itens */
+        flex-wrap: nowrap; /* Impede quebra de linha */
     }
 
+    /* Estilo individual de cada ferramenta */
     .tool {
         display: flex;
-        flex-direction: column;
+        flex-direction: column; /* Ícone e texto ficam em coluna */
         align-items: center;
         text-align: center;
-        width: 100px; /* Mantém os ícones consistentes */
     }
 
+    /* Estilo das imagens */
     .tool img {
-        width: 50px;
+        width: 50px; /* Ajuste de tamanho dos ícones */
         height: 50px;
-        margin-bottom: 10px;
+        margin-bottom: 5px; /* Espaço entre o ícone e o texto */
     }
 
+    /* Estilo do texto */
     .tool span {
         font-size: 14px;
-        color: #666;
+        color: #666; /* Cor suave para o texto */
     }
 
+    /* Linha horizontal */
     hr {
-        margin: 30px auto;
-        border: 1px solid #ddd;
         width: 80%;
+        border: 1px solid #ddd;
+        margin: 20px auto;
     }
 </style>
+
 
                         <!-- Three -->
 				
