@@ -54,7 +54,7 @@
                                          <!-- Two -->
 <!-- Two -->
 <section id="two">
-    <h2>Ferramentas</h2>
+    <h2 class="section-title">Ferramentas</h2>
     <hr>
     <div class="tools-container">
         <div class="tool">
@@ -79,49 +79,59 @@
 <style>
     /* Ajuste Geral */
     #two {
-        text-align: center;
+        text-align: left;
         padding: 20px;
-        margin: 0 auto; /* Centraliza o conteúdo */
-        width: 80%; /* Define a largura do conteúdo */
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    /* Alinhamento do título */
+    .section-title {
+        text-align: left;
+        margin-left: 10px;
+        font-size: 24px;
+        color: #333;
     }
 
     /* Contêiner dos ícones */
     .tools-container {
-        display: flex; /* Alinha os itens horizontalmente */
-        justify-content: flex-start; /* Alinha os itens à esquerda */
-        align-items: center; /* Centraliza os itens verticalmente */
-        gap: 30px; /* Espaço entre os itens */
-        flex-wrap: wrap; /* Permite quebra de linha */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        margin-left: 10px;
     }
 
     /* Estilo individual de cada ferramenta */
     .tool {
         display: flex;
-        flex-direction: column; /* Ícone e texto ficam em coluna */
+        flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
     /* Estilo das imagens */
     .tool img {
-        width: 50px; /* Ajuste de tamanho dos ícones */
+        width: 50px;
         height: 50px;
-        margin-bottom: 5px; /* Espaço entre o ícone e o texto */
+        margin-bottom: 5px;
     }
 
     /* Estilo do texto */
     .tool span {
         font-size: 14px;
-        color: #666; /* Cor suave para o texto */
+        color: #666;
     }
 
     /* Linha horizontal */
     hr {
         width: 80%;
         border: 1px solid #ddd;
-        margin: 20px auto;
+        margin: 10px 0 20px 10px;
     }
 </style>
+
 
 
 
