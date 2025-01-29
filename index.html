@@ -52,6 +52,7 @@
 
 			
                                          <!-- Two -->
+<!-- Two -->
 <section id="two">
     <h2>Ferramentas</h2>
     <hr>
@@ -75,38 +76,54 @@
     </div>
 </section>
 
-/* Ajustes do contêiner de ferramentas */
-.tools-container {
-    display: flex; /* Organiza em linha */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    gap: 20px; /* Espaço entre os itens */
-    max-width: 80%; /* Limita a largura */
-    margin: 0 auto; /* Centraliza o contêiner na página */
-}
+<style>
+    /* Ajuste Geral */
+    #two {
+        text-align: center;
+        padding: 20px;
+        margin: 0 auto; /* Centraliza o conteúdo */
+        width: 80%; /* Define a largura do conteúdo */
+    }
 
-/* Ajuste dos ícones e textos */
-.tool img {
-    width: 50px; /* Tamanho dos ícones */
-    height: 50px;
-    margin-bottom: 5px; /* Espaço abaixo do ícone */
-}
+    /* Contêiner dos ícones */
+    .tools-container {
+        display: flex; /* Alinha os itens horizontalmente */
+        justify-content: flex-start; /* Alinha os itens à esquerda */
+        align-items: center; /* Centraliza os itens verticalmente */
+        gap: 30px; /* Espaço entre os itens */
+        flex-wrap: wrap; /* Permite quebra de linha */
+    }
 
-.tool span {
-    font-size: 14px;
-    color: #666;
-    text-align: center; /* Centraliza o texto */
-}
+    /* Estilo individual de cada ferramenta */
+    .tool {
+        display: flex;
+        flex-direction: column; /* Ícone e texto ficam em coluna */
+        align-items: center;
+        text-align: center;
+    }
 
-/* Geral */
-#two {
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-}
+    /* Estilo das imagens */
+    .tool img {
+        width: 50px; /* Ajuste de tamanho dos ícones */
+        height: 50px;
+        margin-bottom: 5px; /* Espaço entre o ícone e o texto */
+    }
 
+    /* Estilo do texto */
+    .tool span {
+        font-size: 14px;
+        color: #666; /* Cor suave para o texto */
+    }
+
+    /* Linha horizontal */
+    hr {
+        width: 80%;
+        border: 1px solid #ddd;
+        margin: 20px auto;
     }
 </style>
+
+
 
                         <!-- Three -->
 				
