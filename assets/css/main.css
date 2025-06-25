@@ -78,13 +78,14 @@ input, select, textarea {
 		box-sizing: border-box;
 	}
 
-	*, *:before, *:after {
-		box-sizing: inherit;
-	}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
-	background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-        background-attachment: fixed;
-	}
+body {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    background-attachment: fixed;
+}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
