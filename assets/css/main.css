@@ -82,8 +82,8 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
-		background: #fff;
+	background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        background-attachment: fixed;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
