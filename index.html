@@ -182,47 +182,43 @@
 </section>
 
 <!-- Four -->
-<section id="four">
-    <h2>Entre em Contato</h2>
-    <p>Clique no botão abaixo para abrir seu cliente de email ou entre em contato pelos meios indicados ao lado.</p>
-    <div class="row">
-        <div class="col-8 col-12-small">
-            <div style="text-align: center; padding: 40px;">
-                <a href="mailto:lumameloc@gmail.com?subject=Contato via Portfólio&body=Olá Luma,%0D%0A%0D%0AGostaria de entrar em contato sobre...%0D%0A%0D%0A" 
-                   class="button primary large">
-                   ✉️ Enviar Email
-                </a>
-                <p style="margin-top: 20px; color: #666;">
-                    Ou preencha o formulário abaixo e copie o conteúdo para seu email:
-                </p>
-                
-                <div id="email-composer" style="max-width: 500px; margin: 0 auto;">
-                    <input type="text" id="sender-name" placeholder="Seu nome" style="width: 100%; margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
-                    <input type="email" id="sender-email" placeholder="Seu email" style="width: 100%; margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
-                    <textarea id="email-message" placeholder="Sua mensagem" rows="4" style="width: 100%; margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px;"></textarea>
-                    <button onclick="composeEmail()" class="button">Compor Email</button>
-                </div>
-            </div>
-        </div>
-        <div class="col-4 col-12-small">
-            <ul class="labeled-icons">
-                <li>
-                    <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-                    São Pedro da Aldeia - Rio de Janeiro
-                </li>
-                <li>
-                    <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-                    <a href="tel:+5522992773035">(22)992773035</a>
-                </li>
-                <li>
-                    <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-                    <a href="mailto:lumameloc@gmail.com">lumameloc@gmail.com</a>
-                </li>
-                <li>
-                    <h3 class="icon brands fa-whatsapp"><span class="label">WhatsApp</span></h3>
-                    <a href="https://wa.me/5522992773035" target="_blank">WhatsApp</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
+			<section id="four">
+				<h2>Entre em Contato</h2>
+				<p>Entre em contato pelos botões localizados do lado esquerdo da página (PC) ou no rodapé (Mobile).</p>
+				<div class="row">
+					<div class="col-8 col-12-small">
+						<form method="post" action="#">
+							<div class="row gtr-uniform gtr-50">
+								<div class="col-6 col-12-xsmall">
+									<input type="text" name="name" id="name" placeholder="Nome" />
+								</div>
+								<div class="col-6 col-12-xsmall">
+									<input type="email" name="email" id="email" placeholder="Email" />
+								</div>
+								<div class="col-12">
+									<textarea name="message" id="message" placeholder="Mensagem" rows="4"></textarea>
+								</div>
+							</div>
+							<ul class="actions">
+								<li><input type="submit" value="Enviar Mensagem" /></li>
+							</ul>
+						</form>
+					</div>
+					<div class="col-4 col-12-small">
+						<ul class="labeled-icons">
+							<li>
+								<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+								São Pedro da Aldeia - Rio de Janeiro
+							</li>
+							<li>
+								<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+								(22)992773035
+							</li>
+							<li>
+								<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+								<a href="mailto:lumameloc@gmail.com">Email</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>	
